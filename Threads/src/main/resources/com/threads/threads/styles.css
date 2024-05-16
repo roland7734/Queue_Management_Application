@@ -1,0 +1,27 @@
+.operation-button{
+    -fx-background-radius: 50 50 50 50;
+    -fx-background-color: #885DF1;
+    /*-fx-font-size: 20;*/
+    /*-fx-font: Cambria;*/
+    /*-fx-font-style: bold;*/
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.2) , 2, 0.0 , 0 , 2 );
+}
+.operation-button:hover{
+    -fx-background-color: #662EED
+}
+.shadow{
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.rectangle{
+    -fx-background-color: linear-gradient(to right, #885DF0, #F55282);
+    -fx-background-radius: 0 0 10 10;
+
+}
+.text-field{
+    -fx-border-radius: 10;
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: #F55282;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="95.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.threads.threads.gui.ServerViewController">
+   <children>
+      <Pane prefHeight="112.0" prefWidth="49.0" />
+      <Button fx:id="serverNumber" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" styleClass="operation-button" stylesheets="@styles.css" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <HBox.margin>
+            <Insets top="28.0" />
+         </HBox.margin>
+      </Button>
+      <Pane prefHeight="112.0" prefWidth="49.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@checkout.jpeg" />
+         </image>
+      </ImageView>
+      <HBox fx:id="serverHBox" prefHeight="112.0" prefWidth="445.0" />
+   </children>
+</HBox>

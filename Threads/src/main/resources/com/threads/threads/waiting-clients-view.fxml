@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.threads.threads.gui.WaitingClientsViewController">
+   <children>
+      <ImageView fx:id="image" fitHeight="112.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p6.png" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="122.0" prefWidth="175.0">
+         <children>
+            <Label fx:id="idLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="238.0" text="ID" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="arrivalTimeLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="238.0" text="Arrival Time" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="serviceTimeLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="219.0" text="Service Time" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
